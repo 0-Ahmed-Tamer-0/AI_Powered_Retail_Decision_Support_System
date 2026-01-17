@@ -1,0 +1,17 @@
+{
+    "description": "Foot traffic data extracted from in-store cameras",
+    "columns": {
+        "timestamp": {
+            "type": "datetime",
+            "description": "Date and time of observation"
+        },
+        "zone_id": {
+            "type": "string",
+            "description": "Store zone or camera area identifier"
+        },
+        "people_count": {
+            "type": "integer",
+            "description": "Number of detected people"
+        }
+    }
+}

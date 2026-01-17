@@ -1,0 +1,21 @@
+{
+    "description": "Historical and predicted sales per product",
+    "columns": {
+        "date": {
+            "type": "date",
+            "description": "Sales date"
+        },
+        "product_id": {
+            "type": "string",
+            "description": "Unique product identifier"
+        },
+        "actual_sales": {
+            "type": "float",
+            "description": "Observed sales quantity or revenue"
+        },
+        "predicted_sales": {
+            "type": "float",
+            "description": "Forecasted sales quantity or revenue"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "description": "Summarized customer review insights",
+    "columns": {
+        "date": {
+            "type": "date",
+            "description": "Review submission date"
+        },
+        "sentiment": {
+            "type": "string",
+            "description": "Sentiment label (Positive, Neutral, Negative)"
+        },
+        "main_topic": {
+            "type": "string",
+            "description": "Dominant issue or theme in reviews"
+        }
+    }
+}

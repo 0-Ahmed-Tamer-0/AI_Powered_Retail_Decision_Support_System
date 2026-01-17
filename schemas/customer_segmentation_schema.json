@@ -1,0 +1,17 @@
+{
+    "description": "Customer clusters generated from transaction behavior",
+    "columns": {
+        "customer_id": {
+            "type": "string",
+            "description": "Unique customer identifier"
+        },
+        "cluster_id": {
+            "type": "integer",
+            "description": "Cluster label assigned by algorithm"
+        },
+        "cluster_name": {
+            "type": "string",
+            "description": "Business-friendly cluster description"
+        }
+    }
+}
