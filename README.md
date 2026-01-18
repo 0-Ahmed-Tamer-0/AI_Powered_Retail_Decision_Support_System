@@ -36,9 +36,15 @@ alone.
 ai-retail-decision-support-system/
 │
 ├── data/
-│   ├── raw/
+│   ├── outputs/
 │   ├── processed/
-│   └── outputs/
+│   └── raw/
+│       ├── customer_segmentation/
+│       ├── cv_foot_traffic/
+│       ├── inventory/
+│       ├── reviews_analysis/
+│       ├── sales_forecasting/
+│       └── yolo/
 │
 ├── modules/
 │   ├── cv_foot_traffic/
@@ -49,6 +55,12 @@ ai-retail-decision-support-system/
 │   ├── sales_forecasting/
 │   │   ├── notebook.ipynb
 │   │   ├── forecast_model.py
+│   │   └── output_generator.py
+│   │
+│   ├── inventory_management/
+│   │   ├── notebook.ipynb
+│   │   ├── inventory_logic.py
+│   │   ├── stock_generation.py
 │   │   └── output_generator.py
 │   │
 │   ├── customer_segmentation/

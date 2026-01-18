@@ -1,0 +1,11 @@
+product_id,decision,recommended_order,reason
+22086,REORDER,4191,Predicted demand exceeds stock
+22423,REORDER,3835,Predicted demand exceeds stock
+23843,OK,0,Stock sufficient
+47566,OK,0,Stock sufficient
+84879,REORDER,1149,Predicted demand exceeds stock
+85099B,REORDER,394,Predicted demand exceeds stock
+85123A,REORDER,5508,Predicted demand exceeds stock
+DOT,REORDER,17225,Predicted demand exceeds stock
+M,REORDER,7584,Predicted demand exceeds stock
+POST,REORDER,2274,Predicted demand exceeds stock

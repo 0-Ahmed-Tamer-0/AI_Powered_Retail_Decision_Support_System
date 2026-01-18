@@ -1,0 +1,11 @@
+product_id,discount_action,discount_rate,reason
+22086,NONE,0,Stock level normal
+22423,NONE,0,Stock level normal
+23843,DISCOUNT,20,High stock and low demand
+47566,DISCOUNT,20,High stock and low demand
+84879,NONE,0,Stock level normal
+85099B,NONE,0,Stock level normal
+85123A,NONE,0,Stock level normal
+DOT,NONE,0,Stock level normal
+M,NONE,0,Stock level normal
+POST,NONE,0,Stock level normal
